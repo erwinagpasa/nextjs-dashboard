@@ -1,7 +1,7 @@
 // import Head from 'next/head'
 import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
-import profilePic from '../public/OZaT7jl.png'
+import profilePic from '../public/erwin.jpg'
 
 export default function Home() {
   return (
@@ -370,7 +370,7 @@ export default function Home() {
                       3/5
                     </span>
                     <Image 
-                    src="/OZaT7jl.png" alt="Picture of the author" 
+                    src="/erwin.jpg" alt="Picture of the author" 
                     width={30}
                     height={30}
                     className="rounded-full" 
@@ -468,7 +468,7 @@ export default function Home() {
                         <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
 
                         <Image 
-                        src="/OZaT7jl.png" alt="Picture of the author" 
+                        src="/erwin.jpg" alt="Picture of the author" 
                         width={30}
                         height={30}
                         className="object-cover w-full h-full rounded-full" 
@@ -495,7 +495,7 @@ export default function Home() {
                         <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                           
                         <Image 
-                        src="/OZaT7jl.png" alt="Picture of the author" 
+                        src="/erwin.jpg" alt="Picture of the author" 
                         width={30}
                         height={30}
                         className="object-cover w-full h-full rounded-full" 
@@ -520,7 +520,7 @@ export default function Home() {
                       <div className="flex items-center text-sm">
                         <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                         <Image 
-                        src="/OZaT7jl.png" alt="Picture of the author" 
+                        src="/erwin.jpg" alt="Picture of the author" 
                         width={30}
                         height={30}
                         className="object-cover w-full h-full rounded-full" 
@@ -546,7 +546,7 @@ export default function Home() {
                       <div className="flex items-center text-sm">
                         <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                         <Image 
-                        src="/OZaT7jl.png" alt="Picture of the author" 
+                        src="/erwin.jpg" alt="Picture of the author" 
                         width={30}
                         height={30}
                         className="object-cover w-full h-full rounded-full" 
@@ -572,7 +572,7 @@ export default function Home() {
                       <div className="flex items-center text-sm">
                         <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                         <Image 
-                        src="/OZaT7jl.png" alt="Picture of the author" 
+                        src="/erwin.jpg" alt="Picture of the author" 
                         width={30}
                         height={30}
                         className="object-cover w-full h-full rounded-full" 
