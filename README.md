@@ -1,5 +1,7 @@
 # nextjs-playground
 
+Demo: https://main.dkvv58mowx94a.amplifyapp.com
+
 # Installing tailwindcss
 
 1. npm install -D tailwindcss postcss autoprefixer

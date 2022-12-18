@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
      <h1 className="text-3xl text-gray-500 font-bold underline">
-      Tailwindcss NEW!
+      Tailwindcss using jsx!
     </h1>
     </div>
   )
