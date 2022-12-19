@@ -2,6 +2,8 @@
 
 Demo: https://main.dkvv58mowx94a.amplifyapp.com
 
+Ref: https://flowbite.com/application-ui/demo/e-commerce/invoice/#
+
 # Installing tailwindcss
 
 1. npm install -D tailwindcss postcss autoprefixer
