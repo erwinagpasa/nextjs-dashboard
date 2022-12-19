@@ -5,15 +5,15 @@ export const Navbar = () => {
   return ( 
     <div className="fixed w-full flex items-center justify-between h-14 z-10">
        
-        <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-14 bg-gray-600 border-none">         
+        <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-14 bg-gray-100 border-none">         
         <Image src={profilePic} 
         alt="Picture of the author" 
         className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" />
-          <span className="text-white hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>
+          <span className="hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>
           
         </div>
 
-        <div className="pl-4 flex justify-between items-center h-14 bg-gray-200 header-right">
+        <div className="pl-4 flex justify-between items-center h-14 bg-white header-right">
           <div className="bg-white rounded flex items-center w-full max-w-xl mr-4 p-2 shadow-sm border border-gray-200">
             <button className="outline-none focus:outline-none">
               <svg className="w-5 text-gray-600 h-5 cursor-pointer" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
