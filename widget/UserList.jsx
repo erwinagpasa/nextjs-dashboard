@@ -13,12 +13,11 @@ export const UserList = () => {
             <th className="px-4 py-3">Date</th>
           </tr>
         </thead>
-        <tbody className="bg-white divide-y ">
-          <tr className="bg-gray-50 hover:bg-gray-100">
+        <tbody className="bg-white divide-y">
+          <tr className="bg-white hover:bg-gray-100">
             <td className="px-4 py-3">
               <div className="flex items-center text-sm">
                 <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
-
                 <Image 
                 src="/erwin.jpg" alt="Picture of the author" 
                 width={30}
@@ -41,7 +40,7 @@ export const UserList = () => {
             </td>
             <td className="px-4 py-3 text-sm">15-01-2021</td>
           </tr>
-          <tr className="bg-gray-50 hover:bg-gray-200 text-gray-700">
+          <tr className="bg-white hover:bg-gray-200 text-gray-700">
             <td className="px-4 py-3">
               <div className="flex items-center text-sm">
                 <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
@@ -67,7 +66,7 @@ export const UserList = () => {
             </td>
             <td className="px-4 py-3 text-sm">23-03-2021</td>
           </tr>
-          <tr className="bg-gray-50 hover:bg-gray-100 text-gray-700">
+          <tr className="bg-white hover:bg-gray-100 text-gray-700">
             <td className="px-4 py-3">
               <div className="flex items-center text-sm">
                 <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
@@ -93,7 +92,7 @@ export const UserList = () => {
             </td>
             <td className="px-4 py-3 text-sm">09-02-2021</td>
           </tr>
-          <tr className="bg-gray-50 hover:bg-gray-100 text-gray-700">
+          <tr className="bg-white hover:bg-gray-100 text-gray-700">
             <td className="px-4 py-3">
               <div className="flex items-center text-sm">
                 <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">
@@ -119,7 +118,7 @@ export const UserList = () => {
             </td>
             <td className="px-4 py-3 text-sm">17-04-2021</td>
           </tr>
-          <tr className="bg-gray-50 hover:bg-gray-100 text-gray-700">
+          <tr className="bg-white hover:bg-gray-100 text-gray-700">
             <td className="px-4 py-3">
               <div className="flex items-center text-sm">
                 <div className="relative hidden w-8 h-8 mr-3 rounded-full md:block">

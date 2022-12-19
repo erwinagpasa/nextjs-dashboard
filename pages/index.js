@@ -1,7 +1,9 @@
 import { Navbar } from '../components/Navbar'
 import { Sidebar } from '../components/Sidebar'
 import { Address } from '../widget/Address'
+import { ChartWidget } from '../widget/Chart'
 import { ContactForm } from '../widget/ContacForm'
+import { SimpleList } from '../widget/List'
 import { RecentActivities } from '../widget/RecentActivities'
 import { SocialTraffic } from '../widget/SocialTraffic'
 import { UserList } from '../widget/UserList'
@@ -9,12 +11,13 @@ import { UserList } from '../widget/UserList'
 export default function Home() {
   return (
    
-    <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased">
+    <div className="bg-slate-100 min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased">
       <Navbar />
       <Sidebar />
     
+     
+      
       <div className="h-full ml-14 mt-14 mb-10 md:ml-64">
-    
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
           <div className="bg-blue-500 rounded-md flex items-center justify-between p-3 text-white font-medium group">
             <div className="flex justify-center items-center w-14 h-14 bg-white rounded-full transition-all duration-300 transform group-hover:rotate-12">
@@ -59,6 +62,20 @@ export default function Home() {
           </div>
         </div>
     
+
+<div className="p-4">    
+  <div className="flex flex-row">
+    <div className="flex-initial max-sm:w-full w-9/12 pr-2">
+    <ChartWidget />
+    </div>
+    <div className="flex-initial w-3/12 pl-3 hidden md:block">
+    <SimpleList />
+    </div>
+  </div>
+</div>
+
+ 
+
         <div className="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">    
           <SocialTraffic />
           <RecentActivities />
