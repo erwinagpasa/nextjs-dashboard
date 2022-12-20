@@ -10,6 +10,9 @@ import { SocialTraffic } from '../widget/SocialTraffic'
 import { UserList } from '../widget/UserList'
 import { GoogleMappage } from '../widget/GoogleMap'
 
+
+
+
 export default function Home() {
   return (
    
@@ -17,9 +20,8 @@ export default function Home() {
       <Navbar />
       <Sidebar />
     
-     
-      
-      <div className="h-full ml-14 mt-14 mb-10 md:ml-64">
+
+      <div className="h-full ml-14 mt-20 mb-10 md:ml-64">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
         <div className="bg-slate-200 rounded-md flex items-center justify-between p-3 text-slate-700 font-medium group">
 
@@ -63,6 +65,7 @@ export default function Home() {
         </div>
     
 
+
 <div className="p-4">    
   <div className="flex flex-row">
   <div className="flex-initial  w-2/5 pr-2 hidden md:block">
@@ -77,6 +80,10 @@ export default function Home() {
 </div>
 
  
+
+
+
+
 
         <div className="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">    
           <SocialTraffic />
@@ -93,5 +100,230 @@ export default function Home() {
         </div>        
        </div>
     </div>
+  )
+}
+
+function DeleteActiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="5"
+        y="6"
+        width="10"
+        height="10"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+      <path d="M3 6H17" stroke="#C4B5FD" strokeWidth="2" />
+      <path d="M8 6V4H12V6" stroke="#C4B5FD" strokeWidth="2" />
+    </svg>
+  )
+}
+
+
+function DeleteInactiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="5"
+        y="6"
+        width="10"
+        height="10"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+      <path d="M3 6H17" stroke="#A78BFA" strokeWidth="2" />
+      <path d="M8 6V4H12V6" stroke="#A78BFA" strokeWidth="2" />
+    </svg>
+  )
+}
+
+
+
+function MoveActiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M10 4H16V10" stroke="#C4B5FD" strokeWidth="2" />
+      <path d="M16 4L8 12" stroke="#C4B5FD" strokeWidth="2" />
+      <path d="M8 6H4V16H14V12" stroke="#C4B5FD" strokeWidth="2" />
+    </svg>
+  )
+}
+
+function EditInactiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 13V16H7L16 7L13 4L4 13Z"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+    </svg>
+  )
+}
+
+function EditActiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 13V16H7L16 7L13 4L4 13Z"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+    </svg>
+  )
+}
+
+function DuplicateInactiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 4H12V12H4V4Z"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+      <path
+        d="M8 8H16V16H8V8Z"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+    </svg>
+  )
+}
+
+function DuplicateActiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 4H12V12H4V4Z"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+      <path
+        d="M8 8H16V16H8V8Z"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+    </svg>
+  )
+}
+
+function ArchiveInactiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="5"
+        y="8"
+        width="10"
+        height="8"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+      <rect
+        x="4"
+        y="4"
+        width="12"
+        height="4"
+        fill="#EDE9FE"
+        stroke="#A78BFA"
+        strokeWidth="2"
+      />
+      <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
+    </svg>
+  )
+}
+
+function ArchiveActiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="5"
+        y="8"
+        width="10"
+        height="8"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+      <rect
+        x="4"
+        y="4"
+        width="12"
+        height="4"
+        fill="#8B5CF6"
+        stroke="#C4B5FD"
+        strokeWidth="2"
+      />
+      <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
+    </svg>
+  )
+}
+
+function MoveInactiveIcon(props) {
+  return (
+    <svg
+      {...props}
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M10 4H16V10" stroke="#A78BFA" strokeWidth="2" />
+      <path d="M16 4L8 12" stroke="#A78BFA" strokeWidth="2" />
+      <path d="M8 6H4V16H14V12" stroke="#A78BFA" strokeWidth="2" />
+    </svg>
   )
 }
