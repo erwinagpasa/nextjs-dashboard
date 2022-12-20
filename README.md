@@ -2,9 +2,7 @@
 
 Demo: https://main.dkvv58mowx94a.amplifyapp.com
 
-Ref:
 
-https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 # Installing tailwindcss
 
@@ -41,3 +39,5 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+
+Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
