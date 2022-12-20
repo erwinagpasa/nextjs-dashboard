@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import profilePic from '../public/erwin.jpg'
-
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
-
+import { Bars3Icon, BellIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -16,22 +13,17 @@ const navigation = [
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
-}
-
-
-
+  }
 
 export const Navbar = () => {
   return ( 
     <div className="fixed w-full flex items-center justify-between h-14 z-50">       
-      <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-14 bg-white border-none">         
-        <Image src={profilePic} 
-        alt="Picture of the author" 
-        className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" />
+      <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-16 bg-white border-r">         
+        <Image src={profilePic}  alt="erwin agpasa" className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" />
         <span className="hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>          
       </div>
 
-      <div className="items-center bg-slate-100 border-b-[1px] header-right">
+      <div className="items-center bg-white border-b header-right">
       <Disclosure as="nav">
       {({ open }) => (
         <>

@@ -1,8 +1,8 @@
-# nextjs-playground
+# nextjs-dashboard
 
 Demo: https://main.dkvv58mowx94a.amplifyapp.com
 
-Ref: https://flowbite.com/application-ui/demo/e-commerce/invoice/#
+Ref:
 
 https://www.youtube.com/watch?v=iP3DnhCUIsE
 
@@ -40,4 +40,4 @@ module.exports = {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```# nextjs-dashboard
+```
