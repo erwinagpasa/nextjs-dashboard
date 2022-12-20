@@ -14,19 +14,24 @@ export const ActiveOrders = () => {
 
 
     <div className="h-96 overflow-y-auto px-3 hidden md:block">
-      <div className="overflow-hidden">
-        <div className="bg-slate-100 p-3 mb-2 rounded-lg">
+    <div className="overflow-hidden">
+        <div className="bg-slate-50 p-3 mb-2 rounded-lg">
           <div className="rightbox">
             <div className="rb-container">
               <ul className="rb">
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">China - GuangZhou</p>
-                  <small className="timestamp text-slate-600">3rd May 2020 7:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">Manama Bahrain</span>
+                <span className="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-white bg-emerald-500 rounded-full">Out for delivery</span>
+                </a>
+                <small className="text-xs  text-slate-500">3rd May 2020 7:00 PM</small>
                 </li>
           
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">Philippines - Dasmariñas</p>
-                  <small className="timestamp text-slate-600">19th May 2020 3:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">Ilocos Norte Philippines</span>
+                </a>
+                <small className="text-xs text-slate-500">19th May 2020 3:00 PM</small>
                 </li>
               </ul>
             </div>
@@ -35,18 +40,23 @@ export const ActiveOrders = () => {
       </div>
 
       <div className="overflow-hidden">
-        <div className="bg-slate-100 p-3 mb-2 rounded-lg">
+        <div className="bg-slate-50 p-3 mb-2 rounded-lg">
           <div className="rightbox">
             <div className="rb-container">
               <ul className="rb">
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">China - Yiwu</p>
-                  <small className="timestamp text-slate-600">3rd May 2020 7:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">GuangZhou China</span>
+                <span className="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-slate-800 bg-slate-300 rounded-full">Received by logistics</span>
+                </a>
+                <small className="text-xs  text-slate-500">3rd May 2020 7:00 PM</small>
                 </li>
           
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">Philippines - Valenzuela</p>
-                  <small className="timestamp text-slate-600">19th May 2020 3:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">Dasmariñas Philippines</span>
+                </a>
+                <small className="text-xs text-slate-500">19th May 2020 3:00 PM</small>
                 </li>
               </ul>
             </div>
@@ -55,25 +65,30 @@ export const ActiveOrders = () => {
       </div>
 
       <div className="overflow-hidden">
-        <div className="bg-slate-100 p-3 mb-2 rounded-lg">
+        <div className="bg-slate-50 p-3 mb-2 rounded-lg">
           <div className="rightbox">
             <div className="rb-container">
               <ul className="rb">
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">China - Yiwu</p>
-                  <small className="timestamp text-slate-600">3rd May 2020 7:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">Yiwu China</span>
+                <span className="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full">In transit</span>
+                </a>
+                <small className="text-xs  text-slate-500">3rd May 2020 7:00 PM</small>
                 </li>
           
                 <li className="rb-item" ng-repeat="itembx">
-                  <p className="text-blue-600">Philippines - Valenzuela</p>
-                  <small className="timestamp text-slate-600">19th May 2020 3:00 PM</small>
+                <a href="#" className="relative flex flex-row ">
+                <span className="text-sm font-bold text-slate-600">Valenzuela Philippines</span>
+                </a>
+                <small className="text-xs text-slate-500">19th May 2020 3:00 PM</small>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
   );
