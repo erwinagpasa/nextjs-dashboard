@@ -57,6 +57,13 @@ export const data = {
       borderColor: 'rgb(255, 148, 112)',
       backgroundColor: 'rgba(255, 148, 112, 0.1',
     },
+    {
+      fill: true,
+      label: 'Dataset 3',
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      borderColor: 'rgb(13, 180, 185)',
+      backgroundColor: 'rgba(13, 180, 185, 0.1',
+    },
   ],
 };
 
