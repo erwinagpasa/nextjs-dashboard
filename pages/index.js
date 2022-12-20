@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="text-right">
               <p className="text-2xl">1,257</p>
-              <small>Today's order</small>
+              <small>Orders</small>
             </div>
           </div>
 
