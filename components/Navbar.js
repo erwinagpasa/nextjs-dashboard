@@ -20,7 +20,7 @@ export const Navbar = () => {
     <div className="fixed w-full flex items-center justify-between h-14 z-50">       
       <div className="flex items-center justify-start pl-3 w-14 md:w-64 h-16 bg-white border-r">         
         <Image src={profilePic}  alt="erwin agpasa" className="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-full overflow-hidden" />
-        <span className="hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>          
+        <span className="text-slate-800 hidden md:block">ErwinAgpasa <small className="hidden md:block">Administrator</small></span>          
       </div>
 
       <div className="items-center bg-white border-b header-right">
@@ -40,14 +40,14 @@ export const Navbar = () => {
               </div>
           
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button type="button" className="p-1 text-slate-800 hover:text-slate-500">                 
+                <button type="button" className="p-1 text-slate-600 hover:text-slate-900">                 
                 <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="flex text-slate-800 text-sm focus:outline-none hover:text-gray-500">
+                    <Menu.Button className="flex text-slate-600 text-sm focus:outline-none hover:text-gray-900">
                       <span className="sr-only">Open user menu</span>
                       <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </Menu.Button>
