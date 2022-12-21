@@ -5,9 +5,15 @@ export const UserList = () => {
     <div className="mt-4 mx-4">
       <div className="w-full overflow-hidden rounded-lg">
         <div className="w-full overflow-x-auto">
-          {/* Body */}
-          <div className="overflow-x-auto relative">
-            <div className="flex justify-between items-center pb-4 bg-white">
+          {/* Body */}          
+          <div className="overflow-x-auto relative">            
+            <div className="bg-white flex flex-wrap items-center px-4 pt-2">
+              <div className="relative w-full max-w-full flex-grow flex-1">
+              <h3 className="font-semibold text-base text-gray-900">Latest Transactions</h3>
+              </div>
+           </div>
+
+            <div className="flex justify-between items-center bg-white">              
               {/* Dropdown */}
               <div class="flex items-center justify-center p-4">
                 <div class=" relative inline-block text-left dropdown">
