@@ -36,10 +36,10 @@ export default function Home() {
         </div>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">    
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 p-4 gap-4">    
           <SocialTraffic />
           <RecentActivities />
-        </div>
+        </div> */}
             
           <UserList />
 
