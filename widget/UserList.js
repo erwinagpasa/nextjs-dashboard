@@ -4,23 +4,19 @@ export const UserList = () => {
   return (  
     <div className="mt-4 mx-4">
       <div className="w-full overflow-hidden rounded-lg">
-        <div className="w-full overflow-x-auto">
           {/* Body */}          
-          <div className="overflow-x-auto relative">            
-            <div className="bg-white flex flex-wrap items-center px-4 pt-2">
+          <div className="overflow-x-auto relative">
+         
+            <div className="flex flex-wrap items-center px-4 py-2 bg-white">
               <div className="relative w-full max-w-full flex-grow flex-1">
               <h3 className="font-semibold text-base text-gray-900">Latest Transactions</h3>
               </div>
-           </div>
 
-            <div className="flex justify-between items-center bg-white">              
-              {/* Dropdown */}
-              <div class="flex items-center justify-center p-4">
-                <div class=" relative inline-block text-left dropdown">
+              <div class="relative inline-block text-left dropdown pt-3 pr-4">
                   <span class="rounded-md shadow-sm">
                     <button class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800" 
                     type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
-                      <span>Options</span>
+                      <span>Filter</span>
                       <svg class="w-5 h-5 ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </button>
                   </span>
@@ -36,18 +32,17 @@ export const UserList = () => {
                     </div>
                   </div>
                   </div>
-                  </div> 
-                  {/* Search Textbox */}
-                  <div className="relative p-4">
-                    <div className="flex absolute inset-y-0 left-0 items-center pl-6 pointer-events-none">
-                    <svg className="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
-                    </div>
-                    <input type="text" id="table-search-users" className="block p-2 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for users" />
-                  </div>
+            
+              <div className="relative pt-3">
+                <div className="flex absolute inset-y-0 left-0 items-center pl-4 pt-3 pointer-events-none">
+                <svg className="w-5 h-5 text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
+                </div>
+                <input type="text" id="table-search-users" className="block p-2 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for users" />
               </div>
+            </div>
 
               <table className="w-full text-sm text-left text-gray-500">
-                <thead className="text-xs text-gray-700 uppercase bg-gray-50">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-200">
                 <tr>
                   <th scope="col" className="p-4">
                   <div className="flex items-center">
@@ -224,7 +219,7 @@ export const UserList = () => {
               </span>
             </div>
           {/* Pagination end */}
-      </div>
+  
     </div>
   </div> 
 );
