@@ -50,7 +50,7 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 Thanks go to these wonderful people:
 
-![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/8257bbca6cb7bba4841ee509540328439884f8bd?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d) ![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/8257bbca6cb7bba4841ee509540328439884f8bd?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d)
+![avatar](https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d) ![avatar](https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d)
 
 <table>
   <tbody>
