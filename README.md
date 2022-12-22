@@ -44,50 +44,31 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 
 
+## Contributors
 <!-- links to social media icons -->
 <!-- no need to change these -->
-
-<!-- icons with padding -->
-
 [1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 [2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: http://i.imgur.com/yCsTjba.png (google plus icon with padding)
-[4.1]: http://i.imgur.com/YckIOms.png (tumblr icon with padding)
-[5.1]: http://i.imgur.com/1AGmwO3.png (dribbble icon with padding)
-[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-
-
-
-
+[3.1]: http://i.imgur.com/1AGmwO3.png (dribbble icon with padding)
+[4.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
-
-[1]: http://www.twitter.com/carlsednaoui
-[2]: http://www.facebook.com/sednaoui
-[3]: https://plus.google.com/+CarlSednaoui
-[4]: http://carlsed.tumblr.com
-[5]: http://dribbble.com/carlsednaoui
-[6]: http://www.github.com/carlsednaoui
-
-## Contributors
+[1]: https://twitter.com/rootaccess000
+[2]: https://www.facebook.com/witchcraft.xxx
+[3]: https://dribbble.com/erwinagpasa
+[4]: https://github.com/erwinagpasa
 
 
 Thanks go to these wonderful people:
 
-Follow me on [![alt text][1.1]][1]
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tbody>
     <tr>
-      <td align="center">
-      <a href="#">
-      <img src="https://avatars.githubusercontent.com/u/1500684?v=3?s=100" width="100px;" alt="Erwin Agpasa"/><br /><sub><b>Erwin T. Agpasa</b></sub>
-      </a>
-      <br />
-          <a href="#question-kentcdodds" title="Answering Questions">💬</a> <a href="https://github.com/all-contributors/all-contributors/commits?author=kentcdodds" title="Documentation">📖</a> <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Reviewed Pull Requests">👀</a> <a href="#talk-kentcdodds" title="Talks">📢</a>
-      </td>
+      <td align="center"><a href="#"><img src="https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4" width="100px;" alt="Erwin Agpasa"/><br /><sub><b>Erwin T. Agpasa</b></sub></a><br />[![alt text][1.1]][1]</td>
     </tr>
     
   </tbody>
