@@ -45,15 +45,14 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 
 ## Contributors
+[![Star on GitHub](https://img.shields.io/github/stars/all-contributors/all-contributors.svg?style=social)](https://github.com/erwinagpasa/nextjs-dashboard)
 
 Thanks go to these wonderful people:
 
 <table>
   <tbody>
     <tr>
-      <td><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4" width="100px;" alt="Erwin Agpasa"/><br /><sub><b>Erwin T. Agpasa</b></sub></a><br />
-      [![alt text][1.1]][1]</td>
-    </tr>
-    
+      <td><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4" width="100px;" alt="Erwin Agpasa"/></a><br /><b>Erwin T. Agpasa</b></td>
+    </tr>    
   </tbody>
 </table>
