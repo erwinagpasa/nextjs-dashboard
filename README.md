@@ -1,5 +1,7 @@
 # nextjs-dashboard
 
+[![Star on GitHub](https://img.shields.io/github/stars/erwinagpasa/nextjs-dashboard.svg?style=social)](https://github.com/erwinagpasa/nextjs-dashboard)
+
 Demo: https://main.dkvv58mowx94a.amplifyapp.com
 
 
@@ -45,7 +47,6 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 
 ## Contributors
-[![Star on GitHub](https://img.shields.io/github/erwinagpasa/nextjs-dashboard.svg?style=social)](https://github.com/erwinagpasa/nextjs-dashboard)
 
 Thanks go to these wonderful people:
 
