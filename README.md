@@ -50,6 +50,10 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 Thanks go to these wonderful people:
 
+![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65769327?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d)
+
+![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/65769327?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d)
+
 <table>
   <tbody>
     <tr>
