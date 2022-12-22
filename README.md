@@ -50,13 +50,11 @@ Ref: https://www.youtube.com/watch?v=iP3DnhCUIsE
 
 Thanks go to these wonderful people:
 
-![avatar](https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d) ![avatar](https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d)
-
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&fit=cover&mask=circle" width="100px;" alt="Erwin Agpasa"/></a><br /><b>Erwin T. Agpasa</b></td>
-      <td align="center"><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="100px;" alt="Erwin Agpasa"/></a><br /><b>-</b></td>
+      <td align="center"><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://avatars.githubusercontent.com/u/637956?s=100&u=8257bbca6cb7bba4841ee509540328439884f8bd&v=4&fit=cover&mask=circle" width="100px;" alt="Erwin Agpasa"/></a><br />Erwin Agpasa</td>
+      <td align="center"><a href="https://www.facebook.com/witchcraft.xxx"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="100px;" alt="Erwin Agpasa"/></a><br />-</td>
     </tr>    
   </tbody>
 </table>
